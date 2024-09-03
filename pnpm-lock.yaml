@@ -14,6 +14,9 @@ importers:
       '@prisma/adapter-neon':
         specifier: ^5.19.1
         version: 5.19.1(@neondatabase/serverless@0.9.4)
+      '@prisma/client':
+        specifier: 5.19.1
+        version: 5.19.1(prisma@5.19.1)
       next:
         specifier: 14.2.7
         version: 14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -198,6 +201,15 @@ packages:
     resolution: {integrity: sha512-At7/XppJOKEIaUxlXYpDFcRIJP0Nls/BGzAN53k6BacXkBGydFWSEqhrxO42oZll8RRo3LYaWOOTKXQvOrhliQ==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0
+
+  '@prisma/client@5.19.1':
+    resolution: {integrity: sha512-x30GFguInsgt+4z5I4WbkZP2CGpotJMUXy+Gl/aaUjHn2o1DnLYNTA+q9XdYmAQZM8fIIkvUiA2NpgosM3fneg==}
+    engines: {node: '>=16.13'}
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
 
   '@prisma/debug@5.19.1':
     resolution: {integrity: sha512-lAG6A6QnG2AskAukIEucYJZxxcSqKsMK74ZFVfCTOM/7UiyJQi48v6TQ47d6qKG3LbMslqOvnTX25dj/qvclGg==}
@@ -1735,6 +1747,10 @@ snapshots:
       '@neondatabase/serverless': 0.9.4
       '@prisma/driver-adapter-utils': 5.19.1
       postgres-array: 3.0.2
+
+  '@prisma/client@5.19.1(prisma@5.19.1)':
+    optionalDependencies:
+      prisma: 5.19.1
 
   '@prisma/debug@5.19.1': {}
 
