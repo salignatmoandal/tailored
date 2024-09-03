@@ -1,11 +1,13 @@
 import React from 'react'
+import SignIn from './frontend/src/components/auth/SignIn'
 
-function page() {
+function Page() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Connexion</h1>
+      <SignIn />
     </div>
   )
 }
 
-export default page
+export default Page
