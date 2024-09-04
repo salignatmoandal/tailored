@@ -12,3 +12,9 @@ This repository contains the source code and documentation for the TailoredAI pl
 - Campaign Automation: Automatically generate and schedule email campaigns based on customer segments and triggers.
 - Real-time Analytics: Monitor the performance of your campaigns with real-time metrics and insights.
 
+# ⚙️ System Architecture
+Data Ingestion Layer: Responsible for pulling data from various CRM systems and other data sources.
+Processing Layer: Processes and normalizes data, performing necessary transformations and analytics.
+Campaign Generation Layer: Generates personalized content and assembles email campaigns based on predefined rules and templates.
+Delivery Layer: Manages the scheduling and sending of emails via integrated SMTP services or third-party email providers.
+Analytics Layer: Tracks and analyzes the performance of email campaigns, providing insights and feedback for optimization.
