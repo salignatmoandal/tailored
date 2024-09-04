@@ -6,3 +6,4 @@ This repository contains the source code and documentation for the TailoredAI pl
 
 
 # 🛠️ Key Features
+Customer Data Integration: Seamlessly connect and sync with CRM systems to pull in customer profiles and behavior data.
