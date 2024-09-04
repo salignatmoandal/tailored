@@ -5,3 +5,4 @@ TailoredAI is a SaaS platform that enables the generation of personalized email 
 This repository contains the source code and documentation for the TailoredAI platform. The system architecture is modular, divided into several key layers, each responsible for different aspects of data processing and campaign generation.
 
 
+# 🛠️ Key Features
