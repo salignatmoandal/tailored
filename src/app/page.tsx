@@ -1,5 +1,5 @@
 import React from 'react'
-import SignIn from './frontend/src/components/auth/SignIn'
+import SignIn from './frontend/src/components/pages/auth/signin'
 
 function Page() {
   return (

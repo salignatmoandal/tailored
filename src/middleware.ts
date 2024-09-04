@@ -1,6 +1,18 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { NextResponse } from "next/server";
+import { authMiddleware } from "@clerk/nextjs/server";
 
-export default clerkMiddleware();
+export default authMiddleware({
+  publicRoutes: [
+    "/",
+    "/auth/sign-in",  // Mise à jour du chemin
+    "/auth/sign-up",  // Si vous avez aussi une page d'inscription
+    "/api/clerk-webhook",
+  ],
+  
+  ignoredRoutes: [
+    "/api/clerk-webhook",
+  ]
+});
 
 export const config = {
   matcher: [
